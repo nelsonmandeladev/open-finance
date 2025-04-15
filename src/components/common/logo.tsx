@@ -3,7 +3,7 @@ import React from "react";
 
 export function Logo() {
   return (
-    <div className="w-[183px] h-9 aspect-auto object-cover flex items-center justify-center">
+    <div className="w-auto h-7 aspect-auto object-cover flex items-center justify-center">
       <Image
         src={"/logo-full.svg"}
         alt="Bank Dash"
