@@ -29,7 +29,7 @@ export default async function RootLayout(props: RootLayoutProps) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`${inter.variable} antialiased`}
+        className={`${inter.variable} antialiased max-w-[1680px] h-screen max-h-screen mx-auto`}
         suppressHydrationWarning
       >
         <LocalizationProvider locale={locale} resources={resources}>

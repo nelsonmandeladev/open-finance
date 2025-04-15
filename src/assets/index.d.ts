@@ -15,6 +15,7 @@ declare type IconType =
   | "life-insurance-filled"
   | "money-circle"
   | "money-list-plus"
+  | "money-loan"
   | "money-save"
   | "money-stat"
   | "money-tag"

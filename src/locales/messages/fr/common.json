@@ -1,6 +1,13 @@
 {
-  "header": "En-tête",
-  "footer": "Pied de page",
   "french": "Français",
-  "english": "Anglais"
+  "english": "Anglais",
+  "dashboard": "Tableau de bord",
+  "transactions": "Transactions",
+  "accounts": "Comptes",
+  "investments": "Investissements",
+  "credit_cards": "Cartes de crédit",
+  "loans": "Prêts",
+  "services": "Services",
+  "my_privileges": "Mes privilèges",
+  "settings": "Paramètres"
 }

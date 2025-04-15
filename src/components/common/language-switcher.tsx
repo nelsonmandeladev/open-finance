@@ -45,10 +45,13 @@ export function LanguageSwitcher() {
       value={currentLocale}
       onValueChange={(value) => handleChange(value)}
     >
-      <SelectTrigger className="size-10 bg-transparent rounded-full border-primary-1 text-primary-1 gap-1.5 text-xs 2xl:text-base text-center !p-0 flex items-center justify-center font-medium">
+      <SelectTrigger className="w-9 bg-transparent rounded-full border-primary-1 text-primary-1 text-xs 2xl:text-base text-center flex items-center justify-center font-medium p-0">
         <SelectValue className="text-xs 2xl:text-base" />
       </SelectTrigger>
-      <SelectContent className="border-none shadow-2xl shadow-primary-1/10 !max-w-[10px]">
+      <SelectContent
+        className="border-none shadow-2xl shadow-primary-1/10 !max-w-[10px]"
+        align="end"
+      >
         <SelectGroup>
           <SelectItem className="text-xs 2xl:text-base" value="fr">
             Fr

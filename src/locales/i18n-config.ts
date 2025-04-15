@@ -1,5 +1,7 @@
+import { LOCALES } from "./locales";
+
 export const i18nConfig = {
-  locales: ["en", "fr"],
-  defaultLocale: "en",
+  locales: LOCALES,
+  defaultLocale: LOCALES[0],
   localeDetection: true,
 };
