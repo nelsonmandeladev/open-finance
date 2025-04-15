@@ -1,0 +1,9 @@
+echo "🏗️ Building project before push..."
+
+# Run the build command
+pnpm run build || {
+    echo "❌ Build failed. Please fix the build errors before pushing."
+    exit 1
+}
+
+echo "✅ Build successful - proceeding with push" 
