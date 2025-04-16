@@ -1,6 +1,7 @@
 import React from "react";
 import { DashboardSidebar } from "./dashboard-sidebar";
 import { DashboardHeader } from "./dashboard-header";
+import { SearchBar } from "./search-bar";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
@@ -13,7 +14,12 @@ export function DashboardLayout(props: DashboardLayoutProps) {
       <DashboardHeader />
       <div className="grid lg:grid-cols-[200px_1fr] xl:grid-cols-[250px_1fr] w-full h-screen">
         <DashboardSidebar />
-        <div className="p-4 md:p-5">{children}</div>
+        <div className="md:p-5">
+          <div className="bg-white px-4 py-5 md:hidden">
+            <SearchBar />
+          </div>
+          {children}
+        </div>
       </div>
     </div>
   );

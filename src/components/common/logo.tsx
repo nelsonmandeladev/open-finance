@@ -9,14 +9,14 @@ export function Logo() {
         alt="Bank Dash"
         width={183}
         height={36}
-        className="block md:hidden w-full h-full object-cover"
+        className="block lg:hidden w-full h-full object-cover"
       />
       <Image
         src={"/logo-full.svg"}
         alt="Bank Dash"
         width={183}
         height={36}
-        className="hidden md:block w-full h-full object-cover"
+        className="hidden lg:block w-full h-full object-cover"
       />
     </div>
   );

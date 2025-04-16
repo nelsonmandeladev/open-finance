@@ -9,3 +9,17 @@ declare type SidebarItemType = {
   isActive?: boolean;
   link: string;
 };
+
+declare type CardBrandTYpe = "visa" | "mastercard" | "amex" | "discover";
+
+declare type CardType = {
+  id: string;
+  balance: number;
+  currency: string;
+  cardNumber: string;
+  cardHolder: string;
+  expirationDate: string;
+  cvv: string;
+  cardBrand: CardBrandTYpe;
+  isPrimary: boolean;
+};
