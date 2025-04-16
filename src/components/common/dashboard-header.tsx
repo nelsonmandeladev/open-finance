@@ -9,6 +9,7 @@ import { UserAvatar } from "./user-avatar";
 import { NotificationsDropdown } from "./notifications-dropdown";
 import { SettingsDropdown } from "./settings-dropdown";
 import { MobileDashboardSidebar } from "./mobile-dashboard-sidebar";
+import { SearchBar } from "./search-bar";
 
 export function DashboardHeader() {
   const { activeItem } = useActiveSidebarItem();
@@ -27,6 +28,7 @@ export function DashboardHeader() {
         </div>
         <div className="flex items-center gap-2 md:gap-4 lg:gap-6 xl:gap-8">
           <div className="flex items-center gap-2.5">
+            <SearchBar />
             <SettingsDropdown />
             <NotificationsDropdown />
             <LanguageSwitcher />
