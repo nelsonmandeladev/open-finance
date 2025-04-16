@@ -3,16 +3,17 @@
 import Link from "next/link";
 import React from "react";
 import { Icon } from "../ui";
-import { buildPathNAme, cn } from "@/lib";
+import { cn } from "@/lib";
 import { useTranslation } from "react-i18next";
+import { useActiveSidebarItem } from "@/hooks";
 
 export function SidebarItem({ item }: { item: SidebarItemType }) {
   const { icon, label, isActive = false, link } = item;
-  const { i18n, t } = useTranslation();
-  const currentLocale = i18n.language;
+  const { pathname } = useActiveSidebarItem(link);
+  const { t } = useTranslation();
   return (
     <Link
-      href={buildPathNAme(currentLocale, link)}
+      href={pathname}
       className={cn(
         "flex items-center gap-4 text-sidebar-primary text-base font-medium hover:text-primary transition-all duration-300",
         {
@@ -22,7 +23,7 @@ export function SidebarItem({ item }: { item: SidebarItemType }) {
     >
       <div
         className={cn(
-          "bg-transparent hover:bg-primary h-[50px] w-1 rounded-r-2xl",
+          "bg-transparent hover:bg-primary h-[54px] w-1 rounded-r-2xl",
           {
             "bg-current": isActive,
           },

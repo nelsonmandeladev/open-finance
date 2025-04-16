@@ -11,9 +11,9 @@ export function DashboardLayout(props: DashboardLayoutProps) {
   return (
     <div className="flex flex-col w-full h-full 3xl:rounded-2xl 3xl:p-5">
       <DashboardHeader />
-      <div className="grid grid-cols-1 md:grid-cols-[250px_1fr] w-full h-screen ">
+      <div className="grid lg:grid-cols-[200px_1fr] xl:grid-cols-[250px_1fr] w-full h-screen">
         <DashboardSidebar />
-        <div className="p-4">{children}</div>
+        <div className="p-4 md:p-5">{children}</div>
       </div>
     </div>
   );

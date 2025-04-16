@@ -3,14 +3,10 @@
 import { SIDEBAR_ITEMS } from "@/mocks";
 import React, { Fragment } from "react";
 import { SidebarItem } from "./sidebar-item";
-import { useTranslation } from "react-i18next";
-import { usePathname } from "next/navigation";
-import { buildPathNAme } from "@/lib";
+import { useActiveSidebarItem } from "@/hooks";
 
 export function SidebarItems() {
-  const pathname = usePathname();
-  const { i18n } = useTranslation();
-  const currentLocale = i18n.language;
+  const { activeItem } = useActiveSidebarItem();
 
   return (
     <Fragment>
@@ -20,7 +16,7 @@ export function SidebarItems() {
           item={{
             ...item,
             icon: item.icon,
-            isActive: buildPathNAme(currentLocale, item.link) === pathname,
+            isActive: activeItem?.link === item.link,
           }}
         />
       ))}
