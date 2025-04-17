@@ -14,7 +14,7 @@ export function RecentTransactionsList(props: RecentTransactionsList) {
       {...rest}
     >
       <SectionTitle sectionTitle="recent_transaction" />
-      <div className="bg-white rounded-[20px] h-full flex flex-col justify-between p-4">
+      <div className="bg-white rounded-[20px] h-full flex flex-col gap-3 justify-between p-4">
         <RecentTransactionItem
           icon="business-finance-money"
           title={"Deposit from my"}
