@@ -15,5 +15,6 @@
   "valid_thru": "Validitê",
   "card_holder": "Titulaire",
   "balance": "Solde",
-  "see_all": "Tout voir"
+  "see_all": "Tout voir",
+  "recent_transaction": "Transaction récente"
 }

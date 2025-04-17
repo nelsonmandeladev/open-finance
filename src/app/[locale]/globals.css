@@ -41,8 +41,13 @@
   --color-dash-red: var(--dash-red);
   --color-dash-pink: var(--dash-pink);
   --color-dash-yellow: var(--dash-yellow);
+  --color-dash-yellow-light: var(--dash-yellow-light);
   --color-dash-blue: var(--dash-blue);
   --color-dash-green: var(--dash-green);
+  --color-dash-blue-light: var(--dash-blue-light);
+  --color-dash-green-light: var(--dash-green-light);
+  --color-dash-color-success: var(--dash-color-success);
+  --color-dash-color-error: var(--dash-color-error);
   --color-dash-soft-blue: var(--dash-soft-blue);
   --color-dash-blue-darker: var(--dash-blue-darker);
   --radius-sm: calc(var(--radius) - 4px);
@@ -110,9 +115,14 @@
   --dash-red: oklch(0.577 0.245 27.325);
   --dash-pink: oklch(0.741 0.184 27);
   --dash-yellow: oklch(0.828 0.189 84.429);
+  --dash-yellow-light: #fff5d9;
   --dash-blue: oklch(0.646 0.222 241.5);
+  --dash-blue-light: #e7edff;
   --dash-green: oklch(0.741 0.177 193.599);
-  --dash-soft-blue: oklch(0.556 0.07 247.5);
+  --dash-color-success: #41d4a8;
+  --dash-color-error: #ff4b4a;
+  --dash-green-light: #dcfaf8;
+  --dash-soft-blue: #718ebf;
   --dash-blue-darker: oklch(0.215 0.07 247.5);
 }
 
