@@ -16,5 +16,8 @@
   "card_holder": "Card holder",
   "balance": "Balance",
   "see_all": " See all",
-  "recent_transaction": "Recent Transaction"
+  "recent_transaction": "Recent Transaction",
+  "deposit": "Deposit",
+  "withdraw": "Withdraw",
+  "weekly_activities": "Weekly activities"
 }

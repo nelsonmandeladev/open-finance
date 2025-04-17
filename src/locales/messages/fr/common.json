@@ -16,5 +16,8 @@
   "card_holder": "Titulaire",
   "balance": "Solde",
   "see_all": "Tout voir",
-  "recent_transaction": "Transaction récente"
+  "recent_transaction": "Transaction récente",
+  "deposit": "Dépot",
+  "withdraw": "Retrait",
+  "weekly_activities": "Activités hebdomadaires"
 }
