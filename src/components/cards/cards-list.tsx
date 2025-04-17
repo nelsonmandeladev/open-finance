@@ -12,7 +12,11 @@ export function CardsList(props: CardsListProps) {
 
   return (
     <div className={cn("space-y-3", className)} {...rest}>
-      <SectionTitle sectionTitle="my_cards" className="px-4 md:px-0" />
+      <SectionTitle
+        sectionTitle="my_cards"
+        className="px-4 md:px-0"
+        seeAllLink="/credit-cards"
+      />
 
       <div className="grid grid-cols-1">
         <div className="flex flex-nowrap gap-5 overflow-x-auto no-scrollbar px-3 md:px-0">
