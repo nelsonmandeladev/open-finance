@@ -23,3 +23,10 @@ declare type CardType = {
   cardBrand: CardBrandTYpe;
   isPrimary: boolean;
 };
+
+declare type CurrencyFormat = {
+  symbol: string;
+  symbolPosition: "prefix" | "suffix";
+  decimalSeparator: string;
+  thousandsSeparator: string;
+};
