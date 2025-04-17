@@ -11,5 +11,8 @@
   "my_privileges": "Mes privilèges",
   "settings": "Paramètres",
   "search_for_something": "Rechercher quelque chose",
-  "my_cards": "Mes cartes"
+  "my_cards": "Mes cartes",
+  "valid_thru": "Validitê",
+  "card_holder": "Titulaire",
+  "balance": "Solde"
 }

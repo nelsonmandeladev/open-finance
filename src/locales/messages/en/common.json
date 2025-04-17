@@ -11,5 +11,8 @@
   "my_privileges": "My Privileges",
   "settings": "Settings",
   "search_for_something": "Search for something",
-  "my_cards": "My Cards"
+  "my_cards": "My Cards",
+  "valid_thru": "Valid thru",
+  "card_holder": "Card holder",
+  "balance": "Balance"
 }
