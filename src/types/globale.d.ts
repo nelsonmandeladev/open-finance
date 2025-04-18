@@ -37,3 +37,18 @@ declare type QuickTransferUserType = {
   name: string;
   role: string;
 };
+
+declare type TransactionRaisonType = "shipping" | "transfer" | "service";
+declare type TransactionStateType = "expense" | "income";
+
+declare type TransactionType = {
+  id: string;
+  raison: TransactionRaisonType;
+  type: TransactionStateType;
+  description: string;
+  card: string;
+  amount: number;
+  receipt: string;
+  date: string;
+  currency: string;
+};

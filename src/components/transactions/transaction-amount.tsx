@@ -1,29 +1,34 @@
 import { cn } from "@/lib";
 import React, { useMemo } from "react";
 
-interface TransactionAmountProps {
+interface TransactionAmountProps extends React.HTMLAttributes<HTMLDivElement> {
   amount: string;
   type: "income" | "expense";
 }
 export function TransactionAmount(props: TransactionAmountProps) {
-  const { amount, type } = props;
+  const { amount, type, className, ...rest } = props;
 
   const formattedAmount = useMemo(() => {
     switch (type) {
       case "expense":
-        return `-$${amount}`;
+        return `-${amount}`;
         break;
       default:
-        return `+$${amount}`;
+        return `+${amount}`;
         break;
     }
   }, [amount, type]);
 
   return (
     <p
-      className={cn("text-dash-color-success text-xs font-semibold", {
-        "text-dash-color-error": type === "expense",
-      })}
+      className={cn(
+        "text-dash-color-success text-xs font-semibold",
+        className,
+        {
+          "text-dash-color-error": type === "expense",
+        },
+      )}
+      {...rest}
     >
       {formattedAmount}
     </p>

@@ -30,5 +30,21 @@
   "send": "Send",
   "amount": "Amount",
   "balance_history": "Balance History",
-  "my_expense": "My expense"
+  "my_expense": "My expense",
+  "recent_transactions": "Recent Transactions",
+  "all_transactions": "All transactions",
+  "income": "Income",
+  "expense": "Expense",
+  "description": "Description",
+  "transaction_id": "Transaction ID",
+  "type": "Type",
+  "card": "Card",
+  "date": "Date",
+  "receipt": "Receipt",
+  "download": "Download",
+  "previous": "Previous",
+  "next": "Next",
+  "shipping": "Shipping",
+  "transfer": "Transfer",
+  "service": "Service"
 }

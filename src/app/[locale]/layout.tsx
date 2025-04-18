@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { LocalizationProvider } from "@/providers";
 import { initTranslations, LOCALIZATION_NAMESPACES } from "@/locales";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -33,7 +34,7 @@ export default async function RootLayout(props: RootLayoutProps) {
         suppressHydrationWarning
       >
         <LocalizationProvider locale={locale} resources={resources}>
-          {children}
+          <NuqsAdapter>{children}</NuqsAdapter>
         </LocalizationProvider>
       </body>
     </html>

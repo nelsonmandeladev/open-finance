@@ -1,5 +1,6 @@
 import { i18nConfig } from "@/locales";
 import { clsx, type ClassValue } from "clsx";
+import { createLoader, parseAsInteger, parseAsString } from "nuqs/server";
 import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
@@ -17,3 +18,10 @@ export function buildPathNAme(locale: string, path: string) {
 
   return `/${locale}${path}`;
 }
+
+export const searchParams = {
+  activePage: parseAsInteger.withDefault(1),
+  perPage: parseAsInteger.withDefault(5),
+  filter: parseAsString.withDefault("all"),
+};
+export const searchParamsLoader = createLoader(searchParams);

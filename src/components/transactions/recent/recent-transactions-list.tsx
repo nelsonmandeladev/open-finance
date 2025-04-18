@@ -16,25 +16,28 @@ export function RecentTransactionsList(props: RecentTransactionsList) {
           icon="business-finance-money"
           title={"Deposit from my"}
           date={"28 January 2021"}
-          amount={"850"}
+          amount={850}
           type={"expense"}
           color={"yellow"}
+          currency="USD"
         />
         <RecentTransactionItem
           icon="paypal"
           title={"Deposit from my"}
           date={"25 January 2021"}
-          amount={"25,00"}
+          amount={25.4}
           type={"income"}
           color={"blue"}
+          currency="EUR"
         />
         <RecentTransactionItem
           icon="money-circle"
           title={"Deposit from my"}
           date={"21 January 2021"}
-          amount={"5,400"}
+          amount={5400}
           type={"income"}
           color={"green"}
+          currency="USD"
         />
       </div>
     </div>

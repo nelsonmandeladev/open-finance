@@ -30,5 +30,21 @@
   "send": "Envoyer",
   "amount": "Montant",
   "balance_history": "Historique du solde",
-  "my_expense": "Mes dépenses"
+  "my_expense": "Mes dépenses",
+  "recent_transactions": "Transaction récentes",
+  "all_transactions": "Toutes les transactions",
+  "income": "Revenu",
+  "expense": "Dépense",
+  "description": "Description",
+  "transaction_id": "ID de transaction",
+  "type": "Type",
+  "card": "Carte",
+  "date": "Date",
+  "receipt": "Reçu",
+  "download": "Télécharger",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "shipping": "Expédition",
+  "transfer": "Transfert",
+  "service": "Service"
 }
