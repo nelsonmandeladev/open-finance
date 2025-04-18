@@ -28,5 +28,6 @@
   "quick_transfer": "Transfert rapide",
   "write_amount": "Ecrire le montant",
   "send": "Envoyer",
-  "amount": "Montant"
+  "amount": "Montant",
+  "balance_history": "Historique du solde"
 }

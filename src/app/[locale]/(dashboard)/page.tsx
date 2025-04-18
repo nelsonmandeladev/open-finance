@@ -1,4 +1,5 @@
 import {
+  BalanceHistoryChart,
   CardsList,
   ExpenseStatisticsChart,
   QuickTransferUserList,
@@ -28,7 +29,7 @@ export default async function Home(props: HomeProps) {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-[45%_1fr] xl:grid-cols-[40%_1fr] gap-[30px]">
           <QuickTransferUserList />
-          <div className=""></div>
+          <BalanceHistoryChart />
         </div>
       </div>
     </Fragment>

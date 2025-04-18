@@ -28,5 +28,6 @@
   "quick_transfer": "Quick Transfer",
   "write_amount": "Write Amount",
   "send": "Send",
-  "amount": "Amount"
+  "amount": "Amount",
+  "balance_history": "Balance History"
 }
