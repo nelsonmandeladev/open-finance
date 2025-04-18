@@ -30,3 +30,10 @@ declare type CurrencyFormat = {
   decimalSeparator: string;
   thousandsSeparator: string;
 };
+
+declare type QuickTransferUserType = {
+  id: string;
+  image: string;
+  name: string;
+  role: string;
+};

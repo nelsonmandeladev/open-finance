@@ -24,5 +24,9 @@
   "entertainment": "Divertissement",
   "bill_expense": "Factures",
   "investment": "Investissement",
-  "others": "Autres"
+  "others": "Autres",
+  "quick_transfer": "Transfert rapide",
+  "write_amount": "Ecrire le montant",
+  "send": "Envoyer",
+  "amount": "Montant"
 }

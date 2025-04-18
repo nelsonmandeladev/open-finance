@@ -42,13 +42,14 @@ const chartConfig = {
 
 export function ExpenseStatisticsChart() {
   const { t } = useTranslation();
+
   return (
     <div className="space-y-4 flex flex-col">
       <SectionTitle sectionTitle="expense_statistics" />
       <div className="w-full h-full md:flex md:justify-center bg-white py-5 pr-5 pl-2.5 rounded-3xl">
         <ChartContainer
           config={chartConfig}
-          className="mx-auto aspect-square max-h-[320px] md:max-h-[250px] lg:max-h-[320px]"
+          className="mx-auto aspect-square max-h-[320px]"
         >
           <PieChart>
             <ChartTooltip

@@ -24,5 +24,9 @@
   "entertainment": "Entertainment",
   "bill_expense": "Expense",
   "investment": "Investment",
-  "others": "Others"
+  "others": "Others",
+  "quick_transfer": "Quick Transfer",
+  "write_amount": "Write Amount",
+  "send": "Send",
+  "amount": "Amount"
 }

@@ -53,6 +53,7 @@
   --color-dash-gray-darker: var(--dash-gray-darker);
   --color-dash-pink: var(--dash-dash-pink);
   --color-dash-orange: var(--dash-orange);
+  --color-dash-black: var(--dash-black);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -130,6 +131,7 @@
   --dash-gray-darker: #343c6a;
   --dash-pink: #fa00ff;
   --dash-orange: #fc7900;
+  --dash-black: #232323;
 }
 
 .dark {
