@@ -12,7 +12,8 @@ import { SectionTitle } from "../common";
 
 const data = [
   { name: "Jul", value: 0 },
-  { name: "Aug", value: 500 },
+  { name: "Jull", value: 500 },
+  { name: "Aug", value: 50 },
   { name: "Sep", value: 100 },
   { name: "Oct", value: 700 },
   { name: "Nov", value: 200 },

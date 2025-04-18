@@ -9,10 +9,7 @@ interface RecentTransactionsList extends React.HTMLAttributes<HTMLDivElement> {
 export function RecentTransactionsList(props: RecentTransactionsList) {
   const { className, ...rest } = props;
   return (
-    <div
-      className={cn("flex flex-col gap-3 px-4 md:px-0", className)}
-      {...rest}
-    >
+    <div className={cn("flex flex-col gap-3", className)} {...rest}>
       <SectionTitle sectionTitle="recent_transaction" />
       <div className="bg-white rounded-[20px] h-full flex flex-col gap-3 justify-between p-4">
         <RecentTransactionItem
