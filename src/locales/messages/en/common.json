@@ -29,5 +29,6 @@
   "write_amount": "Write Amount",
   "send": "Send",
   "amount": "Amount",
-  "balance_history": "Balance History"
+  "balance_history": "Balance History",
+  "my_expense": "My expense"
 }

@@ -29,5 +29,6 @@
   "write_amount": "Ecrire le montant",
   "send": "Envoyer",
   "amount": "Montant",
-  "balance_history": "Historique du solde"
+  "balance_history": "Historique du solde",
+  "my_expense": "Mes dépenses"
 }
