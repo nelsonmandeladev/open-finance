@@ -1,5 +1,6 @@
 import {
   CardsList,
+  ExpenseStatisticsChart,
   RecentTransactionsList,
   WeeklyActivityChart,
 } from "@/components";
@@ -19,8 +20,9 @@ export default async function Home(props: HomeProps) {
         <CardsList className="pt-4 md:pt-0" cards={CARDS_LIST.slice(0, 3)} />
         <RecentTransactionsList transactions={[]} />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-[65%_1fr] lg:grid-cols-[60%_1fr] mt-5 px-4 md:px-0">
+      <div className="grid grid-cols-1 md:grid-cols-[65%_1fr] lg:grid-cols-[60%_1fr] mt-5 px-4 md:px-0 gap-5">
         <WeeklyActivityChart />
+        <ExpenseStatisticsChart />
       </div>
     </Fragment>
   );

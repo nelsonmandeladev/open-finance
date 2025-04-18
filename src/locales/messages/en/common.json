@@ -19,5 +19,10 @@
   "recent_transaction": "Recent Transaction",
   "deposit": "Deposit",
   "withdraw": "Withdraw",
-  "weekly_activities": "Weekly activities"
+  "weekly_activities": "Weekly activities",
+  "expense_statistics": "Expense Statistics",
+  "entertainment": "Entertainment",
+  "bill_expense": "Expense",
+  "investment": "Investment",
+  "others": "Others"
 }

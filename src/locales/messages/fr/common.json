@@ -19,5 +19,10 @@
   "recent_transaction": "Transaction récente",
   "deposit": "Dépot",
   "withdraw": "Retrait",
-  "weekly_activities": "Activités hebdomadaires"
+  "weekly_activities": "Activités hebdomadaires",
+  "expense_statistics": "Statistiques de dépenses",
+  "entertainment": "Divertissement",
+  "bill_expense": "Factures",
+  "investment": "Investissement",
+  "others": "Autres"
 }
