@@ -52,3 +52,10 @@ declare type TransactionType = {
   date: string;
   currency: string;
 };
+
+declare type AccountStatType = {
+  icon: IconType;
+  color: "yellow" | "blue" | "pink" | "green";
+  title: string;
+  amount: number;
+};

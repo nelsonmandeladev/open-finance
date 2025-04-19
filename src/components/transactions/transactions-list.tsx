@@ -14,7 +14,9 @@ export function TransactionsList(props: TransactionsListProps) {
   return (
     <div className="w-full flex flex-col gap-4 md:gap-5 mt-5">
       <SectionTitle sectionTitle="recent_transactions" />
-      <TransactionsFilter />
+      <div className="grid grid-cols-1 overflow-x-auto no-scrollbar">
+        <TransactionsFilter />
+      </div>
       <div className="bg-white rounded-[20px] h-full p-4 grid grid-cols-1 overflow-x-auto no-scrollbar">
         <TransactionsTable transactions={transactions} />
       </div>

@@ -7,3 +7,4 @@ export * from "./settings-dropdown";
 export * from "./mobile-dashboard-sidebar";
 export * from "./section-title";
 export * from "./global-pagination";
+export * from "./stat-card";

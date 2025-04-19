@@ -54,6 +54,8 @@
   --color-dash-pink: var(--dash-dash-pink);
   --color-dash-orange: var(--dash-orange);
   --color-dash-black: var(--dash-black);
+  --color-dash-soft-pink: var(--dash-soft-pink);
+  --color-dash-soft-pink-light: var(--dash-soft-pink-light);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -130,6 +132,8 @@
   --dash-blue-darker: oklch(0.215 0.07 247.5);
   --dash-gray-darker: #343c6a;
   --dash-pink: #fa00ff;
+  --dash-soft-pink: #ff82ac;
+  --dash-soft-pink-light: #ffe0eb;
   --dash-orange: #fc7900;
   --dash-black: #232323;
   --dash-gray-light: #edf0f7;

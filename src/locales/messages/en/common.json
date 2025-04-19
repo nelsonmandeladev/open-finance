@@ -46,5 +46,7 @@
   "next": "Next",
   "shipping": "Shipping",
   "transfer": "Transfer",
-  "service": "Service"
+  "service": "Service",
+  "my_balance": "My balance",
+  "total_saving": "Total Saving"
 }

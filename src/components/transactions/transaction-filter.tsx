@@ -28,7 +28,7 @@ export function TransactionsFilter() {
     setQueryParams,
   } = useGlobalUrlQueryParams();
   return (
-    <div className="flex items-center gap-2.5 md:gap-5 lg:gap-10 xl:gap-14 border-b">
+    <div className="flex items-center gap-2.5 md:gap-5 lg:gap-10 xl:gap-14 border-b flex-none">
       {FILTERS.map((filter) => (
         <div className="group" key={filter.label}>
           <Button
