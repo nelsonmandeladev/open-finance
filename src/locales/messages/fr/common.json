@@ -60,5 +60,9 @@
   "invoices_sent": "Factures envoyées",
   "total_invested": "Montant total investi",
   "number_of_investment": "Nombre d'investissements",
-  "rate_of_return": "Taux de rendement"
+  "rate_of_return": "Taux de rendement",
+  "yearly_total_investment": "Investissement total annuel",
+  "monthly_revenue": "Revenu mensuel",
+  "my_investment": "Mon investissement",
+  "trending_stock": "Actions tendance"
 }

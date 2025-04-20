@@ -60,5 +60,9 @@
   "invoices_sent": "Invoices Sent",
   "total_invested": "Total Invested amount",
   "number_of_investment": "Number of investment",
-  "rate_of_return": "Rate of return"
+  "rate_of_return": "Rate of return",
+  "yearly_total_investment": "Yearly Total Investment",
+  "monthly_revenue": "Monthly Revenue",
+  "my_investment": "My Investment",
+  "trending_stock": "Trending Stock"
 }
