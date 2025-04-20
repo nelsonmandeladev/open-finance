@@ -41,6 +41,7 @@ declare type QuickTransferUserType = {
 declare type TransactionRaisonType = "shipping" | "transfer" | "service";
 declare type TransactionStateType = "expense" | "income";
 declare type StatusType = "pending" | "completed";
+declare type ColorType = "yellow" | "blue" | "pink" | "green";
 
 declare type TransactionType = {
   id: string;
@@ -57,12 +58,12 @@ declare type TransactionType = {
 
 declare type AccountStatType = {
   icon: IconType;
-  color: "yellow" | "blue" | "pink" | "green";
+  color: ColorType;
   title: string;
   amount: number;
 };
 
 declare type IconBoxType = {
   icon: IconType;
-  color?: "yellow" | "blue" | "pink" | "green";
+  color?: ColorType;
 };

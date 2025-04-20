@@ -2,6 +2,7 @@ import {
   AccountLatestTransactions,
   AccountStatList,
   DebitCreditOverviewChart,
+  InvoicesSendList,
   MainCardBody,
   SectionTitle,
 } from "@/components";
@@ -19,12 +20,9 @@ export default function AccountsPage() {
           <MainCardBody card={CARDS_LIST[0]} className="h-full" />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-[60%_1fr] xl:grid-cols-[65%_1fr] 2xl:grid-cols-[70%_1fr] mt-5 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-[60%_1fr] xl:grid-cols-[65%_1fr] 2xl:grid-cols-[70%_1fr] mt-5 gap-4 xl:gap-5">
         <DebitCreditOverviewChart />
-        <div className="space-y-3 flex flex-col">
-          <SectionTitle sectionTitle="my_card" seeAllLink="/cards" />
-          <div className=""></div>
-        </div>
+        <InvoicesSendList />
       </div>
     </div>
   );

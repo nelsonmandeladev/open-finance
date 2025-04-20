@@ -54,7 +54,8 @@
   "last_transaction": "Dernière transaction",
   "my_card": "Ma carte",
   "debit_credit_overview": "Aperçu des débits et crédits",
-  "debit_credit_overview_detail": "<0>{{debited_amount}}</0> débités et <0>{ {credited_amount}}</0> crédités cette semaine",
+  "debit_credit_overview_detail": "<0>{{debited_amount}}</0> débités et <1>{{credited_amount}}</1> crédités cette semaine",
   "debit": "Débit",
-  "credit": "Crédit"
+  "credit": "Crédit",
+  "invoices_sent": "Factures envoyées"
 }

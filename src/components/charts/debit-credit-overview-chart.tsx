@@ -57,7 +57,7 @@ export function DebitCreditOverviewChart() {
     <div className="space-y-4">
       <SectionTitle sectionTitle="debit_credit_overview" />
       <div className="w-full h-auto bg-white p-5 rounded-3xl">
-        <div className="flex items-center justify-between gap-3.5 text-dash-soft-blue text-xs">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-3.5 text-dash-soft-blue text-xs">
           <p className="">
             <Trans
               i18nKey={"debit_credit_overview_detail"}
@@ -84,7 +84,7 @@ export function DebitCreditOverviewChart() {
         </div>
         <ChartContainer
           config={chartConfig}
-          className="aspect-auto h-[300px] w-full"
+          className="aspect-auto h-[250px] xl:h-[300px] w-full"
         >
           <BarChart accessibilityLayer data={DEBIT_CREDIT_OVERVIEW}>
             <Tooltip
