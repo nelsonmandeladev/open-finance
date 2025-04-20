@@ -48,5 +48,7 @@
   "transfer": "Transfert",
   "service": "Service",
   "my_balance": "My balance",
-  "total_saving": "Total Saving"
+  "total_saving": "Total Saving",
+  "pending": "En attente",
+  "completed": "Terminé"
 }

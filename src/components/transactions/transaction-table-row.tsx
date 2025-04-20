@@ -3,10 +3,10 @@
 import React from "react";
 import { TableCell, TableRow } from "../ui";
 import { formatCurrency } from "@/lib";
-import { TransactionAmount } from "./transaction-amount";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { ArrowDownCircle, ArrowUpCircle } from "lucide-react";
+import { TransactionAmount } from "../common";
 
 interface TransactionTableRowProps {
   transaction: TransactionType;

@@ -9,3 +9,4 @@ export * from "./section-title";
 export * from "./global-pagination";
 export * from "./stat-card";
 export * from "./icon-boxed";
+export * from "./transaction-amount";

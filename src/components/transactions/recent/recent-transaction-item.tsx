@@ -1,7 +1,6 @@
 import React from "react";
-import { TransactionAmount } from "../transaction-amount";
 import { formatCurrency } from "@/lib";
-import { IconBoxed } from "@/components";
+import { IconBoxed, TransactionAmount } from "@/components";
 
 interface RecentTransactionItemProps {
   icon: IconType;
@@ -23,7 +22,7 @@ export function RecentTransactionItem(props: RecentTransactionItemProps) {
           color={color}
           className="size-[50px] md:size-[40px] xl:size-[55px]"
         />
-        <p className="flex flex-col gap-1 text-sm xl:text-base font-semibold">
+        <p className="flex flex-col gap-1 text-dash-black text-sm xl:text-base font-semibold">
           {title}
           <span className="text-dash-soft-blue text-xs font-normal">
             {date}

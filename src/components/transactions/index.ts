@@ -1,5 +1,4 @@
 export * from "./recent";
-export * from "./transaction-amount";
 export * from "./transactions-list";
 export * from "./transaction-table";
 export * from "./transaction-table-row";
