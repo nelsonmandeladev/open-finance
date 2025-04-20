@@ -57,5 +57,8 @@
   "debit_credit_overview_detail": "<0>{{debited_amount}}</0> débités et <1>{{credited_amount}}</1> crédités cette semaine",
   "debit": "Débit",
   "credit": "Crédit",
-  "invoices_sent": "Factures envoyées"
+  "invoices_sent": "Factures envoyées",
+  "total_invested": "Montant total investi",
+  "number_of_investment": "Nombre d'investissements",
+  "rate_of_return": "Taux de rendement"
 }

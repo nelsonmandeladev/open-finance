@@ -6,3 +6,4 @@ export * from "./charts";
 export * from "./quick-transfer";
 export * from "./accounts";
 export * from "./invoices";
+export * from "./investment";
