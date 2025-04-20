@@ -61,3 +61,8 @@ declare type AccountStatType = {
   title: string;
   amount: number;
 };
+
+declare type IconBoxType = {
+  icon: IconType;
+  color?: "yellow" | "blue" | "pink" | "green";
+};

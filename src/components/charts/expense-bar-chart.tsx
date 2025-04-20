@@ -9,6 +9,7 @@ import {
   ChartTooltipContent,
 } from "@/components";
 import { Bar, BarChart, XAxis } from "recharts";
+import { useIsMobile } from "@/hooks";
 
 const chartData = [
   { month: "aug", amount: 69, fill: "var(--dash-gray-light)" },
@@ -50,6 +51,7 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 export function ExpenseBarChart() {
+  const isMobile = useIsMobile();
   return (
     <div className="space-y-4 flex flex-col px-4 md:px-5 md:pl-0">
       <SectionTitle sectionTitle="my_expense" />
@@ -74,7 +76,7 @@ export function ExpenseBarChart() {
               strokeWidth={2}
               radius={10}
               activeIndex={2}
-              barSize={22}
+              barSize={isMobile ? 22 : 30}
             />
           </BarChart>
         </ChartContainer>

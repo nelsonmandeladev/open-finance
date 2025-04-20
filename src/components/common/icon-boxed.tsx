@@ -3,11 +3,14 @@ import React from "react";
 import { Icon } from "../ui";
 
 interface IconBoxedProps extends React.HTMLAttributes<HTMLDivElement> {
-  icon: IconType;
-  color?: "yellow" | "blue" | "pink" | "green";
+  iconBoxed: IconBoxType;
 }
 export function IconBoxed(props: IconBoxedProps) {
-  const { icon, color, className, ...rest } = props;
+  const {
+    iconBoxed: { icon, color },
+    className,
+    ...rest
+  } = props;
   return (
     <div
       className={cn(

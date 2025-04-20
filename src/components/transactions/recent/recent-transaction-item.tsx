@@ -18,8 +18,7 @@ export function RecentTransactionItem(props: RecentTransactionItemProps) {
     <div className="flex justify-between items-center gap-2">
       <div className="flex items-center gap-4">
         <IconBoxed
-          icon={icon}
-          color={color}
+          iconBoxed={{ icon, color }}
           className="size-[50px] md:size-[40px] xl:size-[55px]"
         />
         <p className="flex flex-col gap-1 text-dash-black text-sm xl:text-base font-semibold">

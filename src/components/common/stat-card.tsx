@@ -23,7 +23,7 @@ export function StatCard(props: StatCardProps) {
       {...rest}
     >
       <div className="">
-        <IconBoxed icon={icon} color={color} />
+        <IconBoxed iconBoxed={{ icon, color }} />
       </div>
       <div className="">
         <p className="text-dash-soft-blue text-xs xl:text-base text-nowrap">

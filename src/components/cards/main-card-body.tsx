@@ -15,7 +15,7 @@ export function MainCardBody(props: MainCardBodyProps) {
   return (
     <div
       className={cn(
-        "flex flex-col gap-4 bg-white pt-6 border border-gray-lighter rounded-3xl min-w-[265px] lg:min-w-[250px] xl:min-w-[350px] 2xl:min-w-[400px] overflow-hidden",
+        "flex flex-col justify-between gap-4 bg-white pt-6 border border-gray-lighter rounded-3xl min-w-[265px] lg:min-w-[250px] xl:min-w-[350px] 2xl:min-w-[400px] overflow-hidden",
         {
           "bg-primary": card.isPrimary,
         },

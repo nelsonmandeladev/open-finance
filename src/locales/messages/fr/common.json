@@ -50,5 +50,7 @@
   "my_balance": "My balance",
   "total_saving": "Total Saving",
   "pending": "En attente",
-  "completed": "Terminé"
+  "completed": "Terminé",
+  "last_transaction": "Dernière transaction",
+  "my_card": "Ma carte"
 }
