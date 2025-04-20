@@ -17,13 +17,13 @@ export function RecentTransactionsList(props: RecentTransactionsList) {
           title={"Deposit from my"}
           date={"28 January 2021"}
           amount={850}
-          type={"expense"}
+          type={"income"}
           color={"yellow"}
           currency="USD"
         />
         <RecentTransactionItem
           icon="paypal"
-          title={"Deposit from my"}
+          title={"Deposit Paypal"}
           date={"25 January 2021"}
           amount={25.4}
           type={"income"}
@@ -32,10 +32,10 @@ export function RecentTransactionsList(props: RecentTransactionsList) {
         />
         <RecentTransactionItem
           icon="money-circle"
-          title={"Deposit from my"}
+          title={"Jemi Wilson"}
           date={"21 January 2021"}
           amount={5400}
-          type={"income"}
+          type={"expense"}
           color={"green"}
           currency="USD"
         />
