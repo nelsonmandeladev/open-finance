@@ -52,5 +52,9 @@
   "pending": "Pending",
   "completed": "Completed",
   "last_transaction": "Last transaction",
-  "my_card": "My card"
+  "my_card": "My card",
+  "debit_credit_overview": "Debit & Credit Overview",
+  "debit_credit_overview_detail": "<0>{{debited_amount}}</0> Debited & <1>{{credited_amount}}</1> Credited in this Week",
+  "debit": "Debit",
+  "credit": "Credit"
 }

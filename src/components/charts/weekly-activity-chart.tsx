@@ -32,7 +32,7 @@ export function WeeklyActivityChart() {
     <div className="space-y-4">
       <SectionTitle sectionTitle="weekly_activities" />
       <div className="w-full h-auto bg-white py-5 pr-5 pl-2.5 rounded-3xl">
-        <div className="flex items-center justify-end gap-3.5">
+        <div className="flex items-center justify-end gap-3.5 text-dash-soft-blue text-xs">
           <div className="flex items-center gap-2.5">
             <div className="size-3 rounded-full bg-primary" />
             <span>{t("deposit")}</span>

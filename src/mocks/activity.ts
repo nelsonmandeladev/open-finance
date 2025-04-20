@@ -35,3 +35,41 @@ export const WEEKLY_ACTIVITIES = [
     withdraw: 300,
   },
 ];
+
+export const DEBIT_CREDIT_OVERVIEW = [
+  {
+    day: "Sat",
+    debit: 450,
+    credit: 220,
+  },
+  {
+    day: "Sun",
+    debit: 320,
+    credit: 120,
+  },
+  {
+    day: "Mon",
+    debit: 300,
+    credit: 240,
+  },
+  {
+    day: "Tue",
+    debit: 450,
+    credit: 350,
+  },
+  {
+    day: "Wed",
+    debit: 180,
+    credit: 250,
+  },
+  {
+    day: "Thu",
+    debit: 400,
+    credit: 220,
+  },
+  {
+    day: "Fri",
+    debit: 400,
+    credit: 300,
+  },
+];

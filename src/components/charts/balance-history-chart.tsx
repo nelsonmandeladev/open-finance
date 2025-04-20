@@ -12,13 +12,12 @@ import { SectionTitle } from "../common";
 
 const data = [
   { name: "Jul", value: 0 },
-  { name: "Jull", value: 500 },
-  { name: "Aug", value: 50 },
+  { name: "Aug", value: 500 },
   { name: "Sep", value: 100 },
   { name: "Oct", value: 700 },
   { name: "Nov", value: 200 },
   { name: "Dec", value: 400 },
-  { name: "Jan", value: 0 },
+  { name: "Jan", value: 50 },
 ];
 
 const chartConfig = {
