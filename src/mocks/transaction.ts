@@ -9,6 +9,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "28 Jan, 12.30 AM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548797",
@@ -20,6 +21,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "27 Jan, 3:45 PM",
     currency: "USD",
+    status: "pending",
   },
   {
     id: "#12548798",
@@ -31,6 +33,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "26 Jan, 9:00 AM",
     currency: "USD",
+    status: "pending",
   },
   {
     id: "#12548799",
@@ -42,6 +45,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "25 Jan, 2:15 PM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548800",
@@ -53,6 +57,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "24 Jan, 11:20 AM",
     currency: "USD",
+    status: "pending",
   },
   {
     id: "#12548801",
@@ -64,6 +69,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "23 Jan, 4:30 PM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548802",
@@ -75,6 +81,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "22 Jan, 10:00 AM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548803",
@@ -86,6 +93,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "21 Jan, 7:45 PM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548804",
@@ -97,6 +105,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "20 Jan, 1:15 PM",
     currency: "USD",
+    status: "pending",
   },
   {
     id: "#12548805",
@@ -108,6 +117,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "19 Jan, 9:30 AM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548806",
@@ -119,6 +129,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "18 Jan, 6:20 PM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548807",
@@ -130,6 +141,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "17 Jan, 11:45 AM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548808",
@@ -141,6 +153,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "16 Jan, 8:10 AM",
     currency: "USD",
+    status: "completed",
   },
   {
     id: "#12548809",
@@ -152,6 +165,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "15 Jan, 3:25 PM",
     currency: "USD",
+    status: "pending",
   },
   {
     id: "#12548810",
@@ -163,6 +177,7 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "14 Jan, 5:00 PM",
     currency: "USD",
+    status: "pending",
   },
   {
     id: "#12548811",
@@ -174,5 +189,6 @@ export const TRANSACTIONS: TransactionType[] = [
     receipt: "",
     date: "13 Jan, 12:40 PM",
     currency: "USD",
+    status: "completed",
   },
 ];

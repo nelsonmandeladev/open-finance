@@ -2,8 +2,8 @@
 
 import { cn } from "@/lib";
 import React from "react";
-import { Icon } from "../ui";
 import { useTranslation } from "react-i18next";
+import { IconBoxed } from "./icon-boxed";
 
 interface StatCardProps extends React.HTMLAttributes<HTMLDivElement> {
   icon: IconType;
@@ -23,7 +23,7 @@ export function StatCard(props: StatCardProps) {
       {...rest}
     >
       <div className="">
-        <StatCartIcon icon={icon} color={color} />
+        <IconBoxed icon={icon} color={color} />
       </div>
       <div className="">
         <p className="text-dash-soft-blue text-xs xl:text-base text-nowrap">
@@ -33,29 +33,6 @@ export function StatCard(props: StatCardProps) {
           {t(description)}
         </h4>
       </div>
-    </div>
-  );
-}
-
-interface StatCartIconPpops {
-  icon: IconType;
-  color: "yellow" | "blue" | "pink" | "green";
-}
-function StatCartIcon(props: StatCartIconPpops) {
-  const { icon, color } = props;
-  return (
-    <div
-      className={cn(
-        "size-[45px] lg:size-[50px] xl:size-[70px] flex items-center justify-center rounded-full",
-        {
-          "bg-dash-yellow-light text-dash-yellow": color === "yellow",
-          "bg-dash-blue-light text-dash-blue": color === "blue",
-          "bg-dash-green-light text-dash-green": color === "green",
-          "bg-dash-soft-pink-light text-dash-soft-pink": color === "pink",
-        },
-      )}
-    >
-      <Icon icon={icon} className="fill-current" />
     </div>
   );
 }

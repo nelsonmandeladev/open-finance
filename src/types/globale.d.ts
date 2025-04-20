@@ -40,6 +40,7 @@ declare type QuickTransferUserType = {
 
 declare type TransactionRaisonType = "shipping" | "transfer" | "service";
 declare type TransactionStateType = "expense" | "income";
+declare type StatusType = "pending" | "completed";
 
 declare type TransactionType = {
   id: string;
@@ -51,6 +52,7 @@ declare type TransactionType = {
   receipt: string;
   date: string;
   currency: string;
+  status: StatusType;
 };
 
 declare type AccountStatType = {
