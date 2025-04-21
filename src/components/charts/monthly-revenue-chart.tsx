@@ -66,7 +66,7 @@ export function MonthlyRevenueChart() {
               dataKey="value"
               type={"natural"}
               stroke="var(--secondary)"
-              strokeWidth={2}
+              strokeWidth={3.5}
               dot={false}
             />
           </LineChart>

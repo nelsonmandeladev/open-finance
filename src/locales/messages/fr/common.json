@@ -64,5 +64,10 @@
   "yearly_total_investment": "Investissement total annuel",
   "monthly_revenue": "Revenu mensuel",
   "my_investment": "Mon investissement",
-  "trending_stock": "Actions tendance"
+  "trending_stock": "Actions tendance",
+  "investment_value": "Valeur d'investissement",
+  "return_value": "Valeur de retour",
+  "price": "Prix",
+  "return": "Rendement",
+  "name": "Nom"
 }

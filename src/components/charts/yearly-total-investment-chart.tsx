@@ -66,7 +66,7 @@ export function YearlyTotalInvestmentChart() {
               dataKey="value"
               type="linear"
               stroke="var(--dash-yellow)"
-              strokeWidth={2}
+              strokeWidth={3.5}
               dot={{
                 fill: "var(--dash-yellow)",
               }}

@@ -67,3 +67,20 @@ declare type IconBoxType = {
   icon: IconType;
   color?: ColorType;
 };
+
+declare type InvestmentCategoryType = {
+  title: string;
+};
+
+declare type PlateFormType = "apple" | "google" | "tesla";
+declare type InvestmentStat = "loss" | "win";
+
+declare type InvestmentType = {
+  id: string;
+  title: string;
+  plate_form: PlateFormType;
+  amount: number;
+  categories: InvestmentCategoryType[];
+  stat: InvestmentStat;
+  return: number;
+};
