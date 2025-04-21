@@ -15,17 +15,17 @@ export function MainCardBody(props: MainCardBodyProps) {
   return (
     <div
       className={cn(
-        "flex flex-col justify-between gap-4 bg-white pt-6 border border-gray-lighter rounded-3xl min-w-[265px] lg:min-w-[250px] xl:min-w-[350px] 2xl:min-w-[400px] overflow-hidden",
-        {
-          "bg-primary": card.isPrimary,
-        },
+        "flex flex-col justify-between gap-4 bg-white pt-6 border border-gray-lighter rounded-3xl min-w-[265px] lg:min-w-[250px] xl:min-w-[300px] overflow-hidden",
         className,
       )}
       {...rest}
       style={{
-        background: card.isPrimary
-          ? "linear-gradient(107.38deg, #4C49ED 2.61%, #0A06F4 101.2%)"
-          : "",
+        background:
+          card.priority === "primary"
+            ? "linear-gradient(107.38deg, #4C49ED 2.61%, #0A06F4 101.2%)"
+            : card.priority === "secondary"
+              ? "linear-gradient(107.38deg, #2D60FF 2.61%, #539BFF 101.2%)"
+              : "",
       }}
     >
       <div className="space-y-6 px-4">
@@ -34,7 +34,7 @@ export function MainCardBody(props: MainCardBodyProps) {
           <div className="size-7 xl:size-9 aspect-auto">
             <Image
               src={
-                card.isPrimary
+                card.priority !== "third"
                   ? "/images/Chip_Card.png"
                   : "/images/Chip_Card-black.png"
               }
@@ -52,12 +52,15 @@ export function MainCardBody(props: MainCardBodyProps) {
       </div>
       <div
         className={cn("px-5 py-4 flex items-center justify-between gap-2.5", {
-          "border-t border-gray-lighter": !card.isPrimary,
+          "border-t border-gray-lighter": card.priority === "third",
         })}
         style={{
-          background: card.isPrimary
-            ? "linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%)"
-            : "",
+          background:
+            card.priority === "primary"
+              ? "linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%)"
+              : card.priority === "secondary"
+                ? "linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%)"
+                : "",
         }}
       >
         <CardNumber {...card} />

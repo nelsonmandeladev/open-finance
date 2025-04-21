@@ -3,14 +3,14 @@ import React from "react";
 
 interface CardNumberProps {
   cardNumber: CardType["cardNumber"];
-  isPrimary: CardType["isPrimary"];
+  priority: CardType["priority"];
 }
 export function CardNumber(props: CardNumberProps) {
-  const { cardNumber, isPrimary } = props;
+  const { cardNumber, priority } = props;
   return (
     <p
       className={cn("font-semibold text-base xl:text-xl text-white", {
-        "text-dash-blue-darker": !isPrimary,
+        "text-dash-blue-darker": priority === "third",
       })}
     >
       {cardNumber}

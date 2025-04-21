@@ -8,7 +8,7 @@ export const CARDS_LIST: CardType[] = [
     expirationDate: "05/25",
     cvv: "123",
     cardBrand: "visa",
-    isPrimary: true,
+    priority: "primary",
   },
   {
     id: crypto.randomUUID(),
@@ -19,7 +19,7 @@ export const CARDS_LIST: CardType[] = [
     expirationDate: "09/24",
     cvv: "456",
     cardBrand: "mastercard",
-    isPrimary: false,
+    priority: "secondary",
   },
   {
     id: crypto.randomUUID(),
@@ -30,7 +30,7 @@ export const CARDS_LIST: CardType[] = [
     expirationDate: "12/26",
     cvv: "789",
     cardBrand: "amex",
-    isPrimary: false,
+    priority: "third",
   },
   {
     id: crypto.randomUUID(),
@@ -41,6 +41,17 @@ export const CARDS_LIST: CardType[] = [
     expirationDate: "03/25",
     cvv: "321",
     cardBrand: "discover",
-    isPrimary: false,
+    priority: "third",
+  },
+  {
+    id: crypto.randomUUID(),
+    balance: 950.0,
+    currency: "USD",
+    cardNumber: "6011 **** **** 3214",
+    cardHolder: "Sarah Brown",
+    expirationDate: "03/25",
+    cvv: "321",
+    cardBrand: "discover",
+    priority: "third",
   },
 ];

@@ -11,6 +11,7 @@ declare type SidebarItemType = {
 };
 
 declare type CardBrandTYpe = "visa" | "mastercard" | "amex" | "discover";
+declare type CardPriorityType = "primary" | "secondary" | "third";
 
 declare type CardType = {
   id: string;
@@ -21,7 +22,7 @@ declare type CardType = {
   expirationDate: string;
   cvv: string;
   cardBrand: CardBrandTYpe;
-  isPrimary: boolean;
+  priority: CardPriorityType;
 };
 
 declare type CurrencyFormat = {
