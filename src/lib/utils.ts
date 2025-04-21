@@ -25,3 +25,15 @@ export const searchParams = {
   filter: parseAsString.withDefault("all"),
 };
 export const searchParamsLoader = createLoader(searchParams);
+
+export const formatReturnPercentage = (
+  state: InvestmentStat | string,
+  returnValue: number,
+) => {
+  switch (state) {
+    case "win":
+      return `+${returnValue}%`;
+    default:
+      return `-${returnValue}%`;
+  }
+};

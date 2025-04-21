@@ -5,7 +5,7 @@ export const INVESTMENTS: InvestmentType[] = [
     plate_form: "apple",
     amount: 54000,
     categories: [{ title: "E-commerce" }, { title: "Marketplace" }],
-    stat: "win",
+    state: "win",
     return: 16,
   },
   {
@@ -14,7 +14,7 @@ export const INVESTMENTS: InvestmentType[] = [
     plate_form: "google",
     amount: 25000,
     categories: [{ title: "E-commerce" }, { title: "Marketplace" }],
-    stat: "loss",
+    state: "loss",
     return: 4,
   },
   {
@@ -23,7 +23,7 @@ export const INVESTMENTS: InvestmentType[] = [
     plate_form: "tesla",
     amount: 8200,
     categories: [{ title: "Electric Vehicles" }],
-    stat: "win",
+    state: "win",
     return: 25,
   },
 ];

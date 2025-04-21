@@ -5,3 +5,4 @@ export * from "./quick-transfer";
 export * from "./transaction";
 export * from "./account";
 export * from "./investments";
+export * from "./stocks";

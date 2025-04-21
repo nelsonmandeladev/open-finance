@@ -10,9 +10,9 @@ interface MyInvestmentsListProps extends React.HTMLAttributes<HTMLDivElement> {
 export function MyInvestmentsList(props: MyInvestmentsListProps) {
   const { investments, className, ...rest } = props;
   return (
-    <div className={cn("flex flex-col gap-3", className)} {...rest}>
-      <SectionTitle sectionTitle="recent_transaction" />
-      <div className="flex flex-col gap-2.5 justify-between">
+    <div className={cn("flex flex-col gap-3 h-full", className)} {...rest}>
+      <SectionTitle sectionTitle="my_investment" />
+      <div className="flex flex-col gap-2.5 justify-between h-full">
         {investments.map((investment) => (
           <MyInvestmentCard key={investment.id} investment={investment} />
         ))}

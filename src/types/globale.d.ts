@@ -81,6 +81,14 @@ declare type InvestmentType = {
   plate_form: PlateFormType;
   amount: number;
   categories: InvestmentCategoryType[];
-  stat: InvestmentStat;
+  state: InvestmentStat;
   return: number;
+};
+
+declare type StockType = {
+  sl_no: string;
+  name: string;
+  price: number;
+  return: number;
+  state: InvestmentStat;
 };

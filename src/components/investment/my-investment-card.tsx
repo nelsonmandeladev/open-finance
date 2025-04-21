@@ -2,7 +2,7 @@
 
 import React, { useMemo } from "react";
 import { IconBoxed } from "../common";
-import { cn, formatCurrency } from "@/lib";
+import { cn, formatCurrency, formatReturnPercentage } from "@/lib";
 import { useTranslation } from "react-i18next";
 
 interface MyInvestmentCardProps {
@@ -34,18 +34,6 @@ export function MyInvestmentCard(props: MyInvestmentCardProps) {
           icon: "tesla",
           color: "yellow",
         };
-        break;
-    }
-  }, [investment]);
-
-  const formattedReturn = useMemo(() => {
-    switch (investment.stat) {
-      case "win":
-        return `+${investment.return}%`;
-        break;
-
-      default:
-        return `-${investment.return}%`;
         break;
     }
   }, [investment]);
@@ -85,10 +73,10 @@ export function MyInvestmentCard(props: MyInvestmentCardProps) {
       <div className="">
         <p
           className={cn("text-base font-medium text-dash-green", {
-            "text-dash-red": investment.stat === "loss",
+            "text-dash-red": investment.state === "loss",
           })}
         >
-          {formattedReturn}
+          {formatReturnPercentage(investment.state, investment.return)}
         </p>
         <p className="text-dash-soft-blue text-xs font-normal text-nowrap">
           {t("return_value")}
