@@ -69,5 +69,6 @@
   "return_value": "Valeur de retour",
   "price": "Prix",
   "return": "Rendement",
-  "name": "Nom"
+  "name": "Nom",
+  "card_expense_stat": "Dépenses par carte"
 }

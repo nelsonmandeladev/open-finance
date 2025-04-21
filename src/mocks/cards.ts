@@ -45,10 +45,10 @@ export const CARDS_LIST: CardType[] = [
   },
   {
     id: crypto.randomUUID(),
-    balance: 950.0,
-    currency: "USD",
+    balance: 12000.0,
+    currency: "INR",
     cardNumber: "6011 **** **** 3214",
-    cardHolder: "Sarah Brown",
+    cardHolder: "SN.Mandela",
     expirationDate: "03/25",
     cvv: "321",
     cardBrand: "discover",

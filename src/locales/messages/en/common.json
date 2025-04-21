@@ -69,5 +69,6 @@
   "return_value": "Return Value",
   "price": "Price",
   "return": "Return",
-  "name": "Name"
+  "name": "Name",
+  "card_expense_stat": "Card Expense Statistics"
 }
