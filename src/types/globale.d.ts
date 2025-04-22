@@ -103,3 +103,9 @@ declare type LoanType = {
   interest_rate: number;
   installment: number;
 };
+
+declare type BankServiceCategory = "business" | "safety" | "account" | "card";
+
+declare type BankServiceType = {
+  id: string;
+};

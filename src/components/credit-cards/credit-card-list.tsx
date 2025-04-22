@@ -11,7 +11,7 @@ export function CreditCardList(props: CreditCardListProps) {
 
   return (
     <div className={cn("flex flex-col gap-3 h-full", className)} {...rest}>
-      <SectionTitle sectionTitle="my_investment" />
+      <SectionTitle sectionTitle="card_list" />
       <div className="flex flex-col gap-2.5 justify-between h-full">
         {cards.map((card) => (
           <CreditCardItem key={card.id} card={card} />
