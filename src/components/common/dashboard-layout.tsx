@@ -14,7 +14,10 @@ export function DashboardLayout(props: DashboardLayoutProps) {
       <DashboardHeader />
       <div className="grid lg:grid-cols-[200px_1fr] xl:grid-cols-[250px_1fr] w-full h-full">
         <DashboardSidebar />
-        <ScrollArea className="h-full overflow-y-auto">{children}</ScrollArea>
+        <ScrollArea className="h-full overflow-y-auto">
+          {children}
+          <div className="min-h-40"></div>
+        </ScrollArea>
       </div>
     </div>
   );

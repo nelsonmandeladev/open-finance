@@ -40,13 +40,13 @@ const chartConfig = {
 
 export function CardExpenseStat() {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-3">
       <SectionTitle sectionTitle="balance_history" />
-      <div className="bg-white rounded-3xl px-5 h-full max-h-full p-5 flex flex-col items-center gap-5">
+      <div className="bg-white rounded-3xl px-5 h-full max-h-full p-5 flex flex-col items-center gap-5 md:gap-2.5 lg:gap-5">
         <div className="h-full w-full">
           <ChartContainer
             config={chartConfig}
-            className="mx-auto aspect-square max-h-[300px]"
+            className="mx-auto aspect-square max-h-[160.11px]"
           >
             <PieChart>
               <ChartTooltip
@@ -56,21 +56,21 @@ export function CardExpenseStat() {
               <Pie
                 data={chartData}
                 dataKey="visitors"
-                outerRadius={50}
-                innerRadius={40}
+                outerRadius={40}
+                innerRadius={30}
                 opacity={0.8}
               />
 
-              {[30, 18, 8, 0].map((offset, index) => (
+              {[20, 12, 4, 0].map((offset, index) => (
                 <Pie
                   key={index}
                   data={chartData}
                   dataKey="visitors"
                   nameKey="bank"
-                  innerRadius={50}
+                  innerRadius={40}
                   strokeWidth={5}
                   activeIndex={index}
-                  outerRadius={90}
+                  outerRadius={60}
                   activeShape={({
                     outerRadius = 90,
                     ...props

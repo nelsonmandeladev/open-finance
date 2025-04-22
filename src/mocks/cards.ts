@@ -9,6 +9,7 @@ export const CARDS_LIST: CardType[] = [
     cvv: "123",
     cardBrand: "visa",
     priority: "primary",
+    bank: "DBL Bank",
   },
   {
     id: crypto.randomUUID(),
@@ -20,6 +21,7 @@ export const CARDS_LIST: CardType[] = [
     cvv: "456",
     cardBrand: "mastercard",
     priority: "secondary",
+    bank: "BRC Bank",
   },
   {
     id: crypto.randomUUID(),
@@ -31,6 +33,7 @@ export const CARDS_LIST: CardType[] = [
     cvv: "789",
     cardBrand: "amex",
     priority: "third",
+    bank: "ABK Bank",
   },
   {
     id: crypto.randomUUID(),
@@ -42,6 +45,7 @@ export const CARDS_LIST: CardType[] = [
     cvv: "321",
     cardBrand: "discover",
     priority: "third",
+    bank: "MCP bank",
   },
   {
     id: crypto.randomUUID(),
@@ -53,5 +57,6 @@ export const CARDS_LIST: CardType[] = [
     cvv: "321",
     cardBrand: "discover",
     priority: "third",
+    bank: "SN.M Bank",
   },
 ];

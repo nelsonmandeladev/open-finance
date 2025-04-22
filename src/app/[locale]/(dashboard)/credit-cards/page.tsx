@@ -1,4 +1,9 @@
-import { CardExpenseStat, MainCardBody, SectionTitle } from "@/components";
+import {
+  CardExpenseStat,
+  CreditCardList,
+  MainCardBody,
+  SectionTitle,
+} from "@/components";
 import { CARDS_LIST } from "@/mocks";
 import React, { Fragment } from "react";
 
@@ -16,8 +21,9 @@ export default function CreditCardsPage() {
         </div>
       </div>
       <div className="px-4 md:px-5 space-y-5 mt-5">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[40%_1fr] xl:grid-cols-[30%_1fr]">
+        <div className="grid grid-cols-1 md:grid-cols-[40%_1fr] lg:grid-cols-[40%_1fr] xl:grid-cols-[30%_1fr] gap-4">
           <CardExpenseStat />
+          <CreditCardList cards={CARDS_LIST.slice(0, 3)} />
         </div>
       </div>
     </Fragment>

@@ -7,3 +7,4 @@ export * from "./quick-transfer";
 export * from "./accounts";
 export * from "./invoices";
 export * from "./investment";
+export * from "./credit-cards";

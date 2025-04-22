@@ -15,7 +15,7 @@ export function DashboardHeader() {
   const { activeItem } = useActiveSidebarItem();
   const { t } = useTranslation();
   return (
-    <div className="grid grid-cols-[60px_1fr] lg:grid-cols-[200px_1fr] xl:grid-cols-[250px_1fr] w-full bg-white">
+    <div className="grid grid-cols-[60px_1fr] lg:grid-cols-[200px_1fr] xl:grid-cols-[250px_1fr] w-full bg-white border-b">
       <div className="border-r border-gray-lighter px-1 md:px-5 lg:px-8 py-2.5 flex items-center justify-center md:justify-start">
         <Logo />
       </div>

@@ -23,6 +23,7 @@ declare type CardType = {
   cvv: string;
   cardBrand: CardBrandTYpe;
   priority: CardPriorityType;
+  bank: string;
 };
 
 declare type CurrencyFormat = {
