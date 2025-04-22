@@ -1,4 +1,5 @@
 import {
+  AddNewCard,
   CardExpenseStat,
   CreditCardList,
   MainCardBody,
@@ -21,9 +22,13 @@ export default function CreditCardsPage() {
         </div>
       </div>
       <div className="px-4 md:px-5 space-y-5 mt-5">
-        <div className="grid grid-cols-1 md:grid-cols-[40%_1fr] lg:grid-cols-[40%_1fr] xl:grid-cols-[30%_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-[40%_1fr] xl:grid-cols-[30%_1fr] gap-4">
           <CardExpenseStat />
           <CreditCardList cards={CARDS_LIST.slice(0, 3)} />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-[60%_1fr] gap-4">
+          <AddNewCard />
+          <div className=""></div>
         </div>
       </div>
     </Fragment>

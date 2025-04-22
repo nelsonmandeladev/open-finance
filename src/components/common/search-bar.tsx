@@ -28,7 +28,7 @@ export function SearchBar(props: SearchBarProps) {
       <Input
         type="search"
         placeholder={t("search_for_something")}
-        className="pl-12 !h-14 md:!h-10 lg:!h-12 xl:!h-[50px] text-dash-soft-blue placeholder:text-dash-soft-blue bg-background border-none"
+        className="pl-12 !h-14 md:!h-10 lg:!h-12 text-dash-soft-blue placeholder:text-dash-soft-blue bg-background border-none !rounded-full"
       />
     </div>
   );
