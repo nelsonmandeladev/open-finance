@@ -1,6 +1,7 @@
 import {
   AddNewCard,
   CardExpenseStat,
+  CardSettingsList,
   CreditCardList,
   MainCardBody,
   SectionTitle,
@@ -28,7 +29,7 @@ export default function CreditCardsPage() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-[60%_1fr] gap-4">
           <AddNewCard />
-          <div className=""></div>
+          <CardSettingsList />
         </div>
       </div>
     </Fragment>
