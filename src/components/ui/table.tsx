@@ -12,7 +12,7 @@ function Table({ className, ...props }: React.ComponentProps<"table">) {
     >
       <table
         data-slot="table"
-        className={cn("w-full caption-bottom text-sm", className)}
+        className={cn("w-full caption-bottom text-sm xl:text-base", className)}
         {...props}
       />
     </div>
@@ -34,7 +34,7 @@ function TableBody({ className, ...props }: React.ComponentProps<"tbody">) {
     <tbody
       data-slot="table-body"
       className={cn(
-        "[&_tr:last-child]:border-0 text-xs text-dash-black",
+        "[&_tr:last-child]:border-0 text-xs  text-dash-black",
         className,
       )}
       {...props}
@@ -46,10 +46,7 @@ function TableFooter({ className, ...props }: React.ComponentProps<"tfoot">) {
   return (
     <tfoot
       data-slot="table-footer"
-      className={cn(
-        "bg-muted/50 border-t font-medium [&>tr]:last:border-b-0",
-        className,
-      )}
+      className={cn("border-t font-medium [&>tr]:last:border-b-0", className)}
       {...props}
     />
   );

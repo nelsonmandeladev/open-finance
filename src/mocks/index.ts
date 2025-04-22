@@ -6,3 +6,4 @@ export * from "./transaction";
 export * from "./account";
 export * from "./investments";
 export * from "./stocks";
+export * from "./loans";

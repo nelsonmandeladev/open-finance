@@ -94,3 +94,12 @@ declare type StockType = {
   return: number;
   state: InvestmentStat;
 };
+
+declare type LoanType = {
+  id: string;
+  loan_money: number;
+  left_to_pay: number;
+  duration: number;
+  interest_rate: number;
+  installment: number;
+};

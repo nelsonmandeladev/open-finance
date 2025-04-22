@@ -91,5 +91,19 @@
   "withdraw_without_any_card": "Withdraw without any card",
   "add_to_google_pay": "Add to Google pay",
   "add_to_apple_pay": "Add to Apple pay",
-  "add_to_apple_store": "Add to Apple store"
+  "add_to_apple_store": "Add to Apple store",
+  "personal_loan": "Personal loan",
+  "corporate_loan": "Corporate loan",
+  "business_loan": "Business loan",
+  "custom_loan": "Custom loan",
+  "active_loan_overview": "Active loans overview",
+  "loan_money": "Loan money",
+  "left_to_pay": "Left to pay",
+  "duration": "Duration",
+  "interest_rate": "Interest rate",
+  "installment": "Installment",
+  "repay": "Repay",
+  "month": "Month",
+  "months": "Months",
+  "total": "Total"
 }

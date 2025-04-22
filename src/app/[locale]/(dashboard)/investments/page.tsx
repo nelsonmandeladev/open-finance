@@ -16,7 +16,7 @@ export default function InvestmentsPage() {
         <YearlyTotalInvestmentChart />
         <MonthlyRevenueChart />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[55%_1fr] gap-4 xl:gap-5 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[55%_1fr] xl:grid-cols-2 2xl:grid-cols-[55%_1fr] gap-4 xl:gap-5 mt-5">
         <MyInvestmentsList investments={INVESTMENTS} />
         <TrendingStock stocks={TRENDING_STOCKS} />
       </div>

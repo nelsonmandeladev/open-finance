@@ -91,5 +91,19 @@
   "withdraw_without_any_card": "Retirer sans carte",
   "add_to_google_pay": "Ajouter à Google Pay",
   "add_to_apple_pay": "Ajouter à Apple Pay",
-  "add_to_apple_store": "Ajouter à l'App Store"
+  "add_to_apple_store": "Ajouter à l'App Store",
+  "personal_loan": "Prêt personnel",
+  "corporate_loan": "Prêt entreprise",
+  "business_loan": "Prêt professionnel",
+  "custom_loan": "Prêt personnalisé",
+  "active_loan_overview": "Aperçu des prêts actifs",
+  "loan_money": "Montant du prêt",
+  "left_to_pay": "Reste à payer",
+  "duration": "Durée",
+  "interest_rate": "Taux d'intérêt",
+  "installment": "Mensualité",
+  "repay": "Rembourser",
+  "month": "Mois",
+  "months": "Mois",
+  "total": "Total"
 }

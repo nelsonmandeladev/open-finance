@@ -17,7 +17,7 @@ export function StatCard(props: StatCardProps) {
   return (
     <div
       className={cn(
-        "bg-white flex items-center gap-5 md:gap-2.5 2xl:gap-10 rounded-[15px] lg:rounded-[20px] px-4 py-5 lg:p-5 xl:px-7 xl:py-6",
+        "bg-white flex items-center gap-5 md:gap-2.5 2xl:gap-5 rounded-[15px] lg:rounded-[20px] px-4 py-5 lg:p-5 xl:px-7 xl:py-6",
         className,
       )}
       {...rest}
@@ -29,7 +29,7 @@ export function StatCard(props: StatCardProps) {
         <p className="text-dash-soft-blue text-xs xl:text-base text-nowrap">
           {t(title)}
         </p>
-        <h4 className="text-dash-black text-base xl:text-2xl font-semibold">
+        <h4 className="text-dash-black text-base xl:text-2xl font-semibold text-nowrap">
           {t(description)}
         </h4>
       </div>
