@@ -22,7 +22,7 @@ export function buildPathNAme(locale: string, path: string) {
 export const searchParams = {
   activePage: parseAsInteger.withDefault(1),
   perPage: parseAsInteger.withDefault(5),
-  filter: parseAsString.withDefault("all"),
+  transaction_type: parseAsString.withDefault("all"),
 };
 export const searchParamsLoader = createLoader(searchParams);
 

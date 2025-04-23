@@ -11,17 +11,14 @@ interface TransactionsPageProps {
 export default async function TransactionsPage({
   searchParams,
 }: TransactionsPageProps) {
-  const {
-    activePage,
-    perPage,
-    filter: transactionType,
-  } = await searchParamsLoader(searchParams);
+  const { activePage, perPage, transaction_type } =
+    await searchParamsLoader(searchParams);
 
   // Filter transactions based on transactionType
   const filteredTransactions =
-    transactionType !== "all"
+    transaction_type !== "all"
       ? TRANSACTIONS.filter(
-          (transaction) => transaction.type == transactionType,
+          (transaction) => transaction.type == transaction_type,
         )
       : TRANSACTIONS;
 

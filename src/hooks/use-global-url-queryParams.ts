@@ -5,7 +5,7 @@ export const useGlobalUrlQueryParams = () => {
     {
       activePage: parseAsInteger.withDefault(1),
       perPage: parseAsInteger.withDefault(5),
-      filter: parseAsString.withDefault("all"),
+      transaction_type: parseAsString.withDefault("all"),
     },
     {
       history: "replace",
