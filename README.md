@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Open Finance
+
+An open-source ready to use template for banking applications, designed to provide a consistent and modern banking experience.
+
+## Features
+
+- Modular component library
+- Responsive design
+- Accessibility compliant
+- Customizable themes
+- Cross-browser compatibility
+- Built-in security patterns
+- Internationalization ready
+- Figma icon loader system
+- Clear and consistent use of TypeScript
+- Build on top of Shadcn ui
+- Global search params system using nuqs
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js (>=18.18.0)
+- pnpm (>=7)
+
+### Installation
+
+1.Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/nelsonmandeladev/open-finance.git
+cd open-finance
+```
+
+2.Install dependencies:
+
+```bash
+pnpm install
+```
+
+### Development
+
+Run the development server:
+
+```bash
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying files in the `src/app` directory. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build
+
+To build the project for production:
+
+```bash
+pnpm build
+```
+
+The output will be located in the `.next` directory.
+
+### Linting
+
+Run ESLint to check for code quality:
+
+```bash
+pnpm lint
+```
+
+## Project Structure
+
+### Key Libraries
+
+- **Next.js**: Framework for server-rendered React applications
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **react-i18next**: Internationalization library for React
+- **clsx**: Utility for conditionally joining classNames
+- **fs-extra**: File system utilities for managing assets
+- **nuqs**: Use to manage global url query system with SSR compatible
+
+### Scripts
+
+- `pnpm dev`: Start the development server
+- `pnpm build`: Build the project for production
+- `pnpm build:icon`: Generate clean and reusable icons from the icons files in `@/assets` folder
+- `pnpm lint`: Run ESLint to check for code quality
+
+## Deployment
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com) from the creators of Next.js.
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API
+- [Learn Next.js](https://nextjs.org/learn) - Interactive Next.js tutorial
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
