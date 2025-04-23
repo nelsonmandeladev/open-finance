@@ -23,6 +23,7 @@ export const searchParams = {
   activePage: parseAsInteger.withDefault(1),
   perPage: parseAsInteger.withDefault(5),
   transaction_type: parseAsString.withDefault("all"),
+  account_setting: parseAsString.withDefault("edit-profile"),
 };
 export const searchParamsLoader = createLoader(searchParams);
 

@@ -28,7 +28,7 @@ export default async function TransactionsPage({
         <CardsList cards={[CARDS_LIST[0], CARDS_LIST[2], CARDS_LIST[3]]} />
         <ExpenseBarChart />
       </div>
-      <div className="px-4 md:px-5 space-y-5 mt-5">
+      <div className="px-3 md:px-5 space-y-5 mt-5">
         <TransactionsList
           transactions={filteredTransactions.slice(
             (activePage - 1) * perPage,

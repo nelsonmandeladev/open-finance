@@ -22,6 +22,7 @@ declare type IconType =
   | "money-transfer"
   | "notification-outlined"
   | "paypal"
+  | "pencel-alt"
   | "pie-chart"
   | "play-station"
   | "repeat"

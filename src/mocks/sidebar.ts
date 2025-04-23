@@ -34,11 +34,11 @@ export const SIDEBAR_ITEMS: SidebarItemType[] = [
     label: "services",
     link: "/services",
   },
-  {
-    icon: "econometrics",
-    label: "my_privileges",
-    link: "/my-privileges",
-  },
+  // {
+  //   icon: "econometrics",
+  //   label: "my_privileges",
+  //   link: "/my-privileges",
+  // },
   {
     icon: "settings",
     label: "settings",
