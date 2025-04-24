@@ -8,22 +8,22 @@ export function ServicesStatList() {
         <StatCard
           icon={"life-insurance-filled"}
           color={"blue"}
-          title={"life_insurance"}
-          description={"unlimited_protection"}
+          title={"unlimited_protection"}
+          description={"life_insurance"}
           className="xl:!px-2.5 2xl:!px-7"
         />
         <StatCard
           icon={"shopping-bag"}
           color={"yellow"}
-          title={"shopping"}
-          description={"buy_think_grow"}
+          title={"buy_think_grow"}
+          description={"shopping"}
           className="xl:!px-2.5 2xl:!px-7"
         />
         <StatCard
           icon={"safety-check"}
           color={"green"}
-          title={"safety"}
-          description={"we_are_your_allies"}
+          title={"we_are_your_allies"}
+          description={"safety"}
           className="xl:!px-2.5 2xl:!px-7"
         />
       </div>
